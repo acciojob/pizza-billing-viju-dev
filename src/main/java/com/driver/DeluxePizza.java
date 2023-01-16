@@ -9,5 +9,11 @@ public class DeluxePizza extends Pizza {
         //below methods are by default coz its deluxe pizza
 //        addExtraCheese();
 //        addExtraToppings();
+        if (isVeg){
+            setPrice(150);
+        }
+        else {
+            setPrice(200);
+        }
     }
 }

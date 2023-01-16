@@ -25,6 +25,12 @@ public class Pizza {
 //        this.bill += this.price;
         return this.price;
     }
+    public int setPrice(int price){
+
+//        this.bill += this.price;
+        this.price += price;
+        return this.price;
+    }
 
     public void addExtraCheese(){
         // your code goes here
