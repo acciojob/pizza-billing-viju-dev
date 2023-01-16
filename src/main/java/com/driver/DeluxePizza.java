@@ -7,7 +7,7 @@ public class DeluxePizza extends Pizza {
         // your code goes here
 
         //below methods are by default coz its deluxe pizza
-        addExtraCheese();
-        addExtraToppings();
+//        addExtraCheese();
+//        addExtraToppings();
     }
 }
