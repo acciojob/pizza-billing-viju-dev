@@ -7,13 +7,13 @@ public class DeluxePizza extends Pizza {
         // your code goes here
 
         //below methods are by default coz its deluxe pizza
-//        addExtraCheese();
-//        addExtraToppings();
-        if (isVeg){
-            setPrice(150);
-        }
-        else {
-            setPrice(200);
-        }
+        addExtraCheese();
+        addExtraToppings();
+//        if (isVeg){
+//            setPrice(150);
+//        }
+//        else {
+//            setPrice(200);
+//        }
     }
 }
